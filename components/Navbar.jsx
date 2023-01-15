@@ -13,8 +13,23 @@ const Navbar = () => {
                     <div className={styles.text}>013 0402 7758</div>
                 </div>
            </div>
-           <div className={styles.item}>center</div>
-           <div className={styles.item}>right</div>
+           <div className={styles.item}>
+                <ul className={styles.list}>
+                    <li className={styles.listitem}>Homepage</li>
+                    <li className={styles.listitem}>Products</li>
+                    <li className={styles.listitem}>Menu</li>
+                    <Image src="/img/logo.png" alt="" width="160" height="69"/>
+                    <li className={styles.listitem}>Events</li>
+                    <li className={styles.listitem}>Blog</li>
+                    <li className={styles.listitem}>Contact</li>
+                </ul>
+           </div>
+           <div className={styles.item}>
+                <div className={styles.cart}>
+                <Image src="/img/cart.png" alt="" width="30" height="30"/>
+                    <div className={styles.counter}>2</div>
+                </div>
+           </div>
            </div>
     );
 };
