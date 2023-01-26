@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Slider from '@/components/Slider'
+import Pizzat from '@/components/Pizzat'
+import PizzaCard from '@/components/PizzaCard'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -17,6 +19,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <Slider/>
+    <Pizzat/>
+    <PizzaCard/>
     </>
   )
 }
