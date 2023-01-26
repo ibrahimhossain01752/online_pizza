@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg_orange{
+  background-color: #d1411e;
+}
+.margin{
+  margin: 60px;
+}
+.banner_img{
+  width: 550px;
+  height: 390px;
+  margin-left: 120px;
+  margin-bottom: 100px;
+  margin-left: 3px;
+}
+
 
 /* :root {
   --max-width: 1100px;

@@ -1,4 +1,3 @@
-.container{
-    height:calc(100vh - 100px);
-    background-color: #d1411e;
+.bg_banner{
+background-color: #d1411e;
 }
