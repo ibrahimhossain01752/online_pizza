@@ -15,6 +15,11 @@
   margin-bottom: 100px;
   margin-left: 3px;
 }
+.js_center{
+  /* object-position: center; */
+  justify-content: center;
+  align-items: center;
+}
 
 
 /* :root {
